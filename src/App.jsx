@@ -1,10 +1,13 @@
 // import "./App.css";
+import WeatherApp from "./WeatherApp";
 import SearchBox from "./SearchBox";
-
+import InfoBox from "./InfoBox";
 function App() {
   return (
     <>
-      <SearchBox></SearchBox>
+      <WeatherApp></WeatherApp>
+      {/* <SearchBox></SearchBox>
+      <InfoBox></InfoBox> */}
     </>
   );
 }
