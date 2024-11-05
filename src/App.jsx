@@ -1,12 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import Button from "@mui/material/Button";
+// import "./App.css";
+import WeatherApp from "./WeatherApp";
+import SearchBox from "./SearchBox";
+import InfoBox from "./InfoBox";
 function App() {
   return (
     <>
-      <div></div>
+      <WeatherApp></WeatherApp>
+      {/* <SearchBox></SearchBox>
+      <InfoBox></InfoBox> */}
     </>
   );
 }
