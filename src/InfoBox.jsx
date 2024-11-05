@@ -22,7 +22,7 @@ export default function InfoBox({ info }) {
       <div className="cardContainer">
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
-            sx={{ height: 140 }}
+            sx={{ height: 250 }}
             image={
               info.humidity > 80
                 ? RAIN_URL
@@ -34,7 +34,7 @@ export default function InfoBox({ info }) {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              {info.city}
+              {info.city}&nbsp;
               {info.humidity > 80 ? (
                 <ThunderstormIcon />
               ) : info.temp > 15 ? (
